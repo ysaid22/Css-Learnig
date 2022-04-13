@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.TitreJoe {
+    text-align: center;
+    color: brown;
+}
+.hi:hover{
+    color: blue;
+}
+.Mabila:hover {
+    cursor: pointer;
+}

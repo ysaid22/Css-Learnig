@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+section > * {
+    height: 150px;
+    width: 150px;
+    font-size: 100px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.Div1 {
+    background-color: rgb(255, 0, 0);
+}
+.Div2 {
+    background-color: rgb(0, 255, 145);
+}
+.Div3 {
+    background-color: rgb(89, 0, 255);
+}
+.Div4 {
+    background-color: rgb(0, 195, 255);
+}
+.Div5 {
+    background-color: rgb(200, 255, 0);
+}
+
+/* declarer que le contenu est flexible */
+section {
+    display: flex;
+    
+    /* ______________________________________________________ */
+    /* Gerer la dierction */
+    /* flex-direction: column; */                    /* Element en colonne */
+    /* flex-direction: column-reverse; */            /* Element en colonne inversé */
+    /* flex-direction: row; */                       /* row */
+    /* flex-direction: row-reverse; */               /* reverse row */
+    /* ----------------------------------------------------------------- */
+    /* justify-content: center; */                     /* center */
+    /*justify-content: flex-end; */                    /* align right */
+    /*justify-content: flex-start; */                  /* align left */
+     /*  justify-content: space-around; */                /* space between elements, half
+                                                         the space between marginal elements    
+                                                         and border*/
+    /* justify-content: space-between; */              /* space between elements the
+                                                          1st and last adhere to the end */
+    /* justify-content: space-evenly; */                   /* even space between all of them */
+    /* flex-wrap: wrap; */                                /* responsive size */
+    /* flex-wrap: nowrap; */                             /* valeur par défault */   
+   /*  flex-wrap: wrap-reverse; */                      /* reversed responsive size */
+/* ----------------------------------------------------------------------------------- */
+/* flex-flow: row wrap; */                              /* in row */   
+}
+
+
+
+       
+
+

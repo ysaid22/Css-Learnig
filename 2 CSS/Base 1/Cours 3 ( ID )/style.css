@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#joe{
+   background-image: url(https://vsthemes.org/uploads/posts/2021-06/1624498554_skrinshot-24-06-2021-06_35_04.png);
+  height: 100vh; 
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{text-align: center;
+color: aliceblue;}
